@@ -3,7 +3,8 @@
 <head> 
     <meta charset="UTF-8" />
     <title>Making your first Phaser 3 Game - Part 10</title>
-    <script src="phaser.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.54.0/dist/phaser.js"></script>
+    <script src="titleScene.js"></script>
     <script src="SceneOne.js"></script>
     <script src="SceneDeux.js"></script>
     <script src="SceneTrois.js"></script>
@@ -24,7 +25,7 @@ var config = {
     physics: {
         default: 'arcade',
         arcade: {
-            debug: true
+            debug: false
         }
     },
     scene:[SceneOne,SceneDeux,SceneTrois]

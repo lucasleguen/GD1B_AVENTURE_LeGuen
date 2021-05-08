@@ -177,6 +177,8 @@ class SceneDeux extends Phaser.Scene{
         player.setVelocityY(0);
         
 if (player.x<30){
+        positionX=1180;
+        positionY=437;
         this.scene.start("sceneOne");
         
         if (pdv==2){

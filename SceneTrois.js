@@ -162,7 +162,9 @@ class SceneTrois extends Phaser.Scene{
     else {
         player.setVelocityY(0);
         
-if (player.y==680){
+if (player.x==20){
+        positionX=930;
+        positionY=230;
         this.scene.start("sceneOne");
         
         if (pdv==2){
